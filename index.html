@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Términos y condiciones – Natura Home</title>
-  <meta name="description" content="Términos y condiciones de uso de Natura Home. Condiciones de compra, envíos, devoluciones, garantías y uso del sitio web." />
+  <title>Terms and conditions – Natura Home</title>
+  <meta name="description" content="Natura Home terms and conditions. Purchase conditions, shipping, returns, warranties and website use." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -39,13 +39,11 @@
 
     .container { width: 92%; max-width: var(--max-w); margin: 0 auto; }
 
-    /* TOP BAR */
     .top-bar { background: var(--earth); color: var(--sand); font-size: 0.71rem; font-weight: 400; letter-spacing: 0.09em; padding: 0.55rem 0; }
     .top-bar-inner { display: flex; justify-content: center; align-items: center; gap: 2.5rem; flex-wrap: wrap; }
     .top-bar-item { display: flex; align-items: center; gap: 0.4rem; }
     .top-bar-item svg { flex-shrink: 0; opacity: 0.8; }
 
-    /* HEADER */
     .site-header { position: sticky; top: 0; z-index: 1000; background: var(--warm-white); border-bottom: 1px solid transparent; transition: border-color 0.3s, box-shadow 0.3s; }
     .site-header.scrolled { border-color: var(--sand); box-shadow: var(--shadow-sm); }
     .header-inner { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 1.2rem 0; gap: 1rem; }
@@ -75,7 +73,6 @@
     .mobile-overlay { display: none; position: fixed; inset: 0; background: rgba(26,22,18,0.4); z-index: 1050; backdrop-filter: blur(2px); }
     .mobile-overlay.show { display: block; }
 
-    /* BREADCRUMB */
     .breadcrumb { background: var(--cream); border-bottom: 1px solid var(--sand); padding: 0.75rem 0; }
     .breadcrumb-inner { display: flex; align-items: center; gap: 0.5rem; font-size: 0.74rem; color: var(--taupe); }
     .breadcrumb-inner a { color: var(--taupe); transition: color var(--transition); }
@@ -83,7 +80,6 @@
     .breadcrumb-inner .sep { opacity: 0.4; }
     .breadcrumb-inner .current { color: var(--charcoal); }
 
-    /* PAGE HERO */
     .page-hero { background: var(--cream); padding: 4rem 0 3rem; border-bottom: 1px solid var(--sand); }
     .page-hero-inner { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 2rem; }
     .page-hero-label { display: inline-block; font-size: 0.68rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--bark); margin-bottom: 0.9rem; }
@@ -91,10 +87,8 @@
     .page-hero-meta { text-align: right; font-size: 0.78rem; color: var(--taupe); line-height: 1.7; }
     .page-hero-meta strong { color: var(--charcoal); font-weight: 500; }
 
-    /* LAYOUT */
     .legal-layout { padding: 5rem 0 7rem; background: var(--warm-white); display: grid; grid-template-columns: 240px 1fr; gap: 5rem; align-items: start; }
 
-    /* SIDEBAR */
     .legal-nav { position: sticky; top: 110px; }
     .legal-nav-title { font-size: 0.68rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--taupe); margin-bottom: 1.1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--sand); }
     .legal-nav-list { display: flex; flex-direction: column; gap: 0; }
@@ -107,7 +101,6 @@
     .legal-nav-contact a { color: var(--rust-accent); font-size: 0.8rem; transition: color var(--transition); }
     .legal-nav-contact a:hover { color: var(--earth); }
 
-    /* CONTENT */
     .legal-section { margin-bottom: 3.5rem; padding-bottom: 3.5rem; border-bottom: 1px solid var(--sand); }
     .legal-section:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
     .legal-section-num { font-size: 0.68rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust-accent); margin-bottom: 0.5rem; }
@@ -126,23 +119,19 @@
     .info-box { background: var(--cream); border-left: 3px solid var(--rust-accent); border-radius: 0 var(--radius) var(--radius) 0; padding: 1.1rem 1.4rem; margin: 1.4rem 0; }
     .info-box p { font-size: 0.86rem !important; color: var(--charcoal) !important; margin-bottom: 0 !important; }
     .info-box.sage { border-left-color: var(--sage); }
-    .info-box.sage p { color: var(--charcoal) !important; }
 
-    /* Tabla */
     .data-table { width: 100%; border-collapse: collapse; margin: 1.4rem 0; font-size: 0.84rem; }
     .data-table th { background: var(--cream); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--charcoal); padding: 0.85rem 1rem; text-align: left; border-bottom: 2px solid var(--sand); }
     .data-table td { padding: 0.85rem 1rem; color: var(--taupe); border-bottom: 1px solid var(--sand); vertical-align: top; line-height: 1.6; }
     .data-table tr:last-child td { border-bottom: none; }
     .data-table tr:hover td { background: var(--cream); }
 
-    /* Steps numerados */
     .steps { margin: 1.4rem 0; display: flex; flex-direction: column; gap: 0.8rem; }
     .step { display: flex; gap: 1rem; align-items: flex-start; }
     .step-num { width: 28px; height: 28px; border-radius: 50%; background: var(--earth); color: var(--cream); font-size: 0.76rem; font-weight: 500; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
     .step-text { font-size: 0.9rem; color: var(--taupe); line-height: 1.75; padding-top: 3px; }
     .step-text strong { color: var(--charcoal); }
 
-    /* FOOTER */
     .site-footer { background: var(--charcoal); color: var(--taupe); padding: 5rem 0 0; }
     .footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1.2fr; gap: 2.5rem; padding-bottom: 3.5rem; border-bottom: 1px solid rgba(255,255,255,0.07); }
     .footer-brand .logo-name { color: var(--sand); }
@@ -159,7 +148,6 @@
     .footer-contact-item svg { flex-shrink: 0; margin-top: 2px; }
     .footer-bottom { padding: 1.4rem 0; display: flex; align-items: center; justify-content: space-between; font-size: 0.74rem; color: rgba(181,168,152,0.5); flex-wrap: wrap; gap: 0.5rem; }
 
-    /* RESPONSIVE */
     @media (max-width: 900px) {
       .header-inner { grid-template-columns: 1fr auto; }
       .main-nav { display: none; }
@@ -186,15 +174,15 @@
       <div class="top-bar-inner">
         <span class="top-bar-item">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          Envío gratuito en pedidos desde 199€
+          Free shipping on orders over €199
         </span>
         <span class="top-bar-item">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Pago 100% seguro
+          100% secure payment
         </span>
         <span class="top-bar-item">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          Atención personalizada · Lun–Vie 9h–19h
+          Personal support · Mon–Fri 9am–7pm
         </span>
       </div>
     </div>
@@ -206,27 +194,27 @@
       <div class="header-inner">
         <a href="index.html" class="logo">
           <span class="logo-name">Natura Home</span>
-          <span class="logo-tagline">Muebles con alma</span>
+          <span class="logo-tagline">Furniture with soul</span>
         </a>
-        <nav class="main-nav" aria-label="Navegación principal">
-          <a href="index.html">Inicio</a>
-          <a href="hogar.html">Hogar</a>
-          <a href="bano.html">Baño</a>
-          <a href="terraza-jardin.html">Terraza y jardín</a>
-          <a href="contacto.html">Contacto</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="hogar.html">Living</a>
+          <a href="bano.html">Bathroom</a>
+          <a href="terraza-jardin.html">Terrace &amp; Garden</a>
+          <a href="contacto.html">Contact</a>
         </nav>
         <div class="header-actions">
-          <button class="header-icon-btn" aria-label="Buscar">
+          <button class="header-icon-btn" aria-label="Search">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           </button>
-          <button class="header-icon-btn" aria-label="Favoritos">
+          <button class="header-icon-btn" aria-label="Wishlist">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
           </button>
-          <a href="carrito.html" class="header-icon-btn" aria-label="Carrito">
+          <a href="carrito.html" class="header-icon-btn" aria-label="Cart">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
             <span class="cart-count" id="cartCount">0</span>
           </a>
-          <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+          <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
             <span></span><span></span><span></span>
           </button>
         </div>
@@ -238,11 +226,11 @@
   <nav class="mobile-nav" id="mobileNav">
     <button class="mobile-nav-close" id="mobileNavClose">✕</button>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="hogar.html">Hogar</a></li>
-      <li><a href="bano.html">Baño</a></li>
-      <li><a href="terraza-jardin.html">Terraza y jardín</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hogar.html">Living</a></li>
+      <li><a href="bano.html">Bathroom</a></li>
+      <li><a href="terraza-jardin.html">Terrace &amp; Garden</a></li>
+      <li><a href="contacto.html">Contact</a></li>
     </ul>
   </nav>
 
@@ -252,9 +240,9 @@
     <div class="breadcrumb">
       <div class="container">
         <div class="breadcrumb-inner">
-          <a href="index.html">Inicio</a>
+          <a href="index.html">Home</a>
           <span class="sep">›</span>
-          <span class="current">Términos y condiciones</span>
+          <span class="current">Terms and conditions</span>
         </div>
       </div>
     </div>
@@ -264,13 +252,13 @@
       <div class="container">
         <div class="page-hero-inner">
           <div>
-            <span class="page-hero-label">Información legal</span>
-            <h1 class="page-hero-title">Términos y condiciones</h1>
+            <span class="page-hero-label">Legal information</span>
+            <h1 class="page-hero-title">Terms and conditions</h1>
           </div>
           <div class="page-hero-meta">
-            <p><strong>Última actualización</strong></p>
-            <p>1 de enero de 2025</p>
-            <p style="margin-top:0.3rem">Versión 1.0</p>
+            <p><strong>Last updated</strong></p>
+            <p>1 January 2025</p>
+            <p style="margin-top:0.3rem">Version 1.0</p>
           </div>
         </div>
       </div>
@@ -280,321 +268,321 @@
     <div class="container">
       <div class="legal-layout">
 
-        <!-- ÍNDICE -->
-        <aside class="legal-nav" aria-label="Índice de contenidos">
-          <p class="legal-nav-title">Contenido</p>
+        <!-- SIDEBAR INDEX -->
+        <aside class="legal-nav" aria-label="Table of contents">
+          <p class="legal-nav-title">Contents</p>
           <nav class="legal-nav-list">
-            <a href="#identificacion">1. Identificación del vendedor</a>
-            <a href="#objeto">2. Objeto y aceptación</a>
-            <a href="#productos">3. Productos y disponibilidad</a>
-            <a href="#precios">4. Precios e IVA</a>
-            <a href="#proceso-compra">5. Proceso de compra</a>
-            <a href="#pago">6. Métodos de pago</a>
-            <a href="#envios">7. Envíos y entregas</a>
-            <a href="#desistimiento">8. Derecho de desistimiento</a>
-            <a href="#devoluciones">9. Devoluciones y cambios</a>
-            <a href="#garantia">10. Garantía legal</a>
-            <a href="#responsabilidad">11. Responsabilidad</a>
-            <a href="#propiedad-intelectual">12. Propiedad intelectual</a>
-            <a href="#uso-web">13. Uso aceptable del sitio</a>
-            <a href="#modificaciones">14. Modificaciones</a>
-            <a href="#legislacion">15. Legislación y fuero</a>
+            <a href="#identificacion">1. Seller identification</a>
+            <a href="#objeto">2. Scope and acceptance</a>
+            <a href="#productos">3. Products and availability</a>
+            <a href="#precios">4. Prices and VAT</a>
+            <a href="#proceso-compra">5. Order process</a>
+            <a href="#pago">6. Payment methods</a>
+            <a href="#envios">7. Shipping and delivery</a>
+            <a href="#desistimiento">8. Right of withdrawal</a>
+            <a href="#devoluciones">9. Returns and exchanges</a>
+            <a href="#garantia">10. Legal warranty</a>
+            <a href="#responsabilidad">11. Liability</a>
+            <a href="#propiedad-intelectual">12. Intellectual property</a>
+            <a href="#uso-web">13. Acceptable use</a>
+            <a href="#modificaciones">14. Amendments</a>
+            <a href="#legislacion">15. Governing law and jurisdiction</a>
           </nav>
 
           <div class="legal-nav-contact">
-            <p class="legal-nav-contact-title">¿Tienes dudas?</p>
-            <p>Escríbenos a<br>
+            <p class="legal-nav-contact-title">Have a question?</p>
+            <p>Write to us at<br>
               <a href="mailto:hola@naturahome.es">hola@naturahome.es</a>
             </p>
           </div>
         </aside>
 
-        <!-- TEXTO -->
+        <!-- LEGAL TEXT -->
         <article class="legal-content">
 
           <div class="info-box">
-            <p>Al realizar una compra o utilizar el sitio web de Natura Home aceptas los presentes términos y condiciones en su totalidad. Te recomendamos leerlos antes de completar cualquier pedido. Si tienes alguna duda, puedes contactarnos antes de finalizar tu compra.</p>
+            <p>By making a purchase or using the Natura Home website you agree to these terms and conditions in full. We recommend reading them before completing any order. If you have any questions, please contact us before finalising your purchase.</p>
           </div>
 
           <!-- 1 -->
           <div class="legal-section" id="identificacion">
             <p class="legal-section-num">01</p>
-            <h2 class="legal-section-title">Identificación del vendedor</h2>
-            <p>La tienda online www.naturahome.es es titularidad de:</p>
+            <h2 class="legal-section-title">Seller identification</h2>
+            <p>The online shop www.naturahome.es is operated by:</p>
             <ul class="legal-list">
-              <li><strong>Razón social:</strong> Natura Home, S.L.</li>
-              <li><strong>NIF:</strong> B-XXXXXXXX</li>
-              <li><strong>Domicilio social:</strong> Calle del Pinar 14, 28006 Madrid, España</li>
-              <li><strong>Correo electrónico:</strong> <a href="mailto:hola@naturahome.es">hola@naturahome.es</a></li>
-              <li><strong>Teléfono:</strong> +34 900 123 456</li>
-              <li><strong>Registro Mercantil:</strong> Registro Mercantil de Madrid, Tomo XXXXX, Folio XXX, Hoja M-XXXXXX</li>
+              <li><strong>Company name:</strong> Natura Home, S.L.</li>
+              <li><strong>Tax ID:</strong> B-XXXXXXXX</li>
+              <li><strong>Registered address:</strong> Calle del Pinar 14, 28006 Madrid, Spain</li>
+              <li><strong>Email:</strong> <a href="mailto:hola@naturahome.es">hola@naturahome.es</a></li>
+              <li><strong>Phone:</strong> +34 900 123 456</li>
+              <li><strong>Companies Register:</strong> Registro Mercantil de Madrid, Volume XXXXX, Page XXX, Entry M-XXXXXX</li>
             </ul>
           </div>
 
           <!-- 2 -->
           <div class="legal-section" id="objeto">
             <p class="legal-section-num">02</p>
-            <h2 class="legal-section-title">Objeto y aceptación de las condiciones</h2>
-            <p>Los presentes Términos y Condiciones regulan la relación contractual entre Natura Home, S.L. (en adelante, "Natura Home") y el usuario o cliente (en adelante, "el Cliente") que realiza compras a través del sitio web <strong>www.naturahome.es</strong>.</p>
-            <p>El acceso y uso del sitio web, así como la realización de cualquier pedido, implica la <strong>aceptación plena y sin reservas</strong> de estas condiciones en la versión publicada en el momento de la compra. Natura Home se reserva el derecho a modificarlas en cualquier momento, siendo la versión vigente la publicada en esta página.</p>
-            <p>Para poder comprar en nuestra tienda es necesario ser <strong>mayor de 18 años</strong> o contar con la autorización de un representante legal. Al finalizar la compra, el Cliente declara cumplir este requisito.</p>
+            <h2 class="legal-section-title">Scope and acceptance</h2>
+            <p>These Terms and Conditions govern the contractual relationship between Natura Home, S.L. (hereinafter "Natura Home") and the user or customer (hereinafter "the Customer") who makes purchases through the website <strong>www.naturahome.es</strong>.</p>
+            <p>Accessing and using the website, as well as placing any order, constitutes <strong>full and unreserved acceptance</strong> of these terms in the version published at the time of purchase. Natura Home reserves the right to amend them at any time; the current version is always the one published on this page.</p>
+            <p>To purchase from our shop you must be <strong>18 years of age or older</strong>, or have the authorisation of a legal representative. By completing a purchase, the Customer confirms that this requirement is met.</p>
           </div>
 
           <!-- 3 -->
           <div class="legal-section" id="productos">
             <p class="legal-section-num">03</p>
-            <h2 class="legal-section-title">Productos y disponibilidad</h2>
-            <p>Natura Home ofrece muebles y artículos de decoración para el hogar, baño y espacios exteriores. Cada producto incluye una descripción detallada con sus características principales, materiales, dimensiones y precio.</p>
-            <p>Nos esforzamos por mantener la información actualizada, aunque pueden producirse discrepancias menores entre las fotografías y el producto real debido a diferencias en la calibración de pantallas o pequeñas variaciones propias de la artesanía.</p>
+            <h2 class="legal-section-title">Products and availability</h2>
+            <p>Natura Home offers furniture and home décor items for living spaces, bathrooms and outdoor areas. Each product includes a detailed description with its main features, materials, dimensions and price.</p>
+            <p>We make every effort to keep information up to date, although minor discrepancies between photographs and the actual product may occur due to screen calibration differences or slight variations inherent in handcrafted goods.</p>
             <ul class="legal-list">
-              <li><strong>Disponibilidad en stock:</strong> los productos marcados como «En stock» están disponibles para envío inmediato.</li>
-              <li><strong>Bajo pedido:</strong> algunos artículos se fabrican o importan bajo demanda. El plazo se indicará claramente en la ficha del producto.</li>
-              <li><strong>Descatalogados:</strong> en caso de que un artículo se agote después de confirmar tu pedido, te contactaremos de inmediato para ofrecerte una alternativa o proceder al reembolso completo.</li>
+              <li><strong>In stock:</strong> products marked as "In stock" are available for immediate dispatch.</li>
+              <li><strong>Made to order:</strong> some items are manufactured or imported on demand. The lead time will be clearly stated on the product page.</li>
+              <li><strong>Out of stock:</strong> if an item sells out after your order is confirmed, we will contact you immediately to offer an alternative or arrange a full refund.</li>
             </ul>
           </div>
 
           <!-- 4 -->
           <div class="legal-section" id="precios">
             <p class="legal-section-num">04</p>
-            <h2 class="legal-section-title">Precios e IVA</h2>
-            <p>Todos los precios publicados en la tienda están expresados en <strong>euros (€)</strong> e incluyen el <strong>IVA aplicable</strong> según la normativa española vigente. El tipo de IVA aplicado es del 21 % para la mayoría de productos.</p>
-            <p>Los gastos de envío se calculan en el proceso de compra y se muestran claramente antes de confirmar el pedido. El <strong>envío es gratuito</strong> en pedidos iguales o superiores a <strong>199 €</strong> (IVA incluido) con destino a la Península Ibérica.</p>
+            <h2 class="legal-section-title">Prices and VAT</h2>
+            <p>All prices shown in the shop are expressed in <strong>euros (€)</strong> and include the applicable <strong>VAT</strong> in accordance with current Spanish regulations. The standard VAT rate applied is 21% for most products.</p>
+            <p>Shipping costs are calculated during checkout and shown clearly before you confirm your order. <strong>Shipping is free</strong> on orders of <strong>€199 or more</strong> (VAT included) delivered to mainland Spain and the Balearic Islands.</p>
 
             <table class="data-table">
               <thead>
                 <tr>
-                  <th>Destino</th>
-                  <th>Gastos de envío</th>
-                  <th>Envío gratuito desde</th>
+                  <th>Destination</th>
+                  <th>Shipping cost</th>
+                  <th>Free shipping from</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Península e Islas Baleares</td>
-                  <td>Desde 9,90 €</td>
-                  <td>199 €</td>
+                  <td>Mainland Spain &amp; Balearic Islands</td>
+                  <td>From €9.90</td>
+                  <td>€199</td>
                 </tr>
                 <tr>
-                  <td>Islas Canarias, Ceuta y Melilla</td>
-                  <td>Consultar al realizar el pedido</td>
-                  <td>Consultar</td>
+                  <td>Canary Islands, Ceuta &amp; Melilla</td>
+                  <td>Enquire at checkout</td>
+                  <td>Enquire</td>
                 </tr>
                 <tr>
-                  <td>Portugal continental</td>
-                  <td>Desde 12,90 €</td>
-                  <td>250 €</td>
+                  <td>Continental Portugal</td>
+                  <td>From €12.90</td>
+                  <td>€250</td>
                 </tr>
                 <tr>
-                  <td>Resto de Europa</td>
-                  <td>Desde 24,90 €</td>
-                  <td>No aplica</td>
+                  <td>Rest of Europe</td>
+                  <td>From €24.90</td>
+                  <td>Not applicable</td>
                 </tr>
               </tbody>
             </table>
 
-            <p>Natura Home se reserva el derecho de modificar los precios en cualquier momento, si bien los cambios no afectarán a pedidos ya confirmados. En caso de error de precio manifiesto, te informaremos antes de procesar el pedido y podrás cancelarlo sin coste.</p>
+            <p>Natura Home reserves the right to change prices at any time; however, changes will not affect already confirmed orders. In the event of a manifest pricing error, we will notify you before processing the order and you will be able to cancel it at no cost.</p>
           </div>
 
           <!-- 5 -->
           <div class="legal-section" id="proceso-compra">
             <p class="legal-section-num">05</p>
-            <h2 class="legal-section-title">Proceso de compra</h2>
-            <p>El proceso para realizar un pedido en nuestra tienda es el siguiente:</p>
+            <h2 class="legal-section-title">Order process</h2>
+            <p>The steps to place an order in our shop are as follows:</p>
 
             <div class="steps">
               <div class="step">
                 <div class="step-num">1</div>
-                <p class="step-text"><strong>Selección de productos.</strong> Añade los artículos que desees al carrito. Puedes revisarlo y modificarlo en cualquier momento antes de continuar.</p>
+                <p class="step-text"><strong>Select products.</strong> Add the items you want to your cart. You can review and edit it at any time before proceeding.</p>
               </div>
               <div class="step">
                 <div class="step-num">2</div>
-                <p class="step-text"><strong>Datos de entrega.</strong> Introduce tu nombre, dirección de envío y datos de contacto. Si ya tienes cuenta, puedes usar los datos guardados.</p>
+                <p class="step-text"><strong>Delivery details.</strong> Enter your name, shipping address and contact information. If you already have an account, you can use your saved details.</p>
               </div>
               <div class="step">
                 <div class="step-num">3</div>
-                <p class="step-text"><strong>Método de envío.</strong> Selecciona la opción de envío disponible para tu zona.</p>
+                <p class="step-text"><strong>Shipping method.</strong> Select the shipping option available for your area.</p>
               </div>
               <div class="step">
                 <div class="step-num">4</div>
-                <p class="step-text"><strong>Pago.</strong> Elige tu método de pago preferido y completa la transacción de forma segura.</p>
+                <p class="step-text"><strong>Payment.</strong> Choose your preferred payment method and complete the transaction securely.</p>
               </div>
               <div class="step">
                 <div class="step-num">5</div>
-                <p class="step-text"><strong>Confirmación.</strong> Recibirás un correo electrónico de confirmación con el resumen de tu pedido y el número de referencia. Este correo constituye la <strong>aceptación del contrato</strong> por parte de Natura Home.</p>
+                <p class="step-text"><strong>Confirmation.</strong> You will receive a confirmation email with a summary of your order and your reference number. This email constitutes <strong>acceptance of the contract</strong> by Natura Home.</p>
               </div>
             </div>
 
             <div class="info-box sage" style="margin-top:1.4rem">
-              <p>El contrato de compraventa se formaliza en el momento en que recibes el correo de confirmación del pedido. Si no lo recibes en 30 minutos, revisa tu carpeta de spam o contáctanos.</p>
+              <p>The sales contract is formed when you receive the order confirmation email. If you do not receive it within 30 minutes, please check your spam folder or contact us.</p>
             </div>
           </div>
 
           <!-- 6 -->
           <div class="legal-section" id="pago">
             <p class="legal-section-num">06</p>
-            <h2 class="legal-section-title">Métodos de pago</h2>
-            <p>Aceptamos los siguientes métodos de pago:</p>
+            <h2 class="legal-section-title">Payment methods</h2>
+            <p>We accept the following payment methods:</p>
             <ul class="legal-list">
-              <li><strong>Tarjeta de crédito o débito</strong> (Visa, Mastercard, American Express) — procesado mediante pasarela segura con certificación PCI-DSS. No almacenamos datos de tarjeta en nuestros servidores.</li>
-              <li><strong>Bizum</strong> — pago inmediato a través de la app de tu banco.</li>
-              <li><strong>Transferencia bancaria</strong> — el pedido se procesa una vez confirmada la recepción del pago (1–2 días hábiles). Los datos bancarios se facilitan al finalizar el pedido.</li>
-              <li><strong>PayPal</strong> — pago mediante tu cuenta PayPal con la protección al comprador que ofrece este servicio.</li>
+              <li><strong>Credit or debit card</strong> (Visa, Mastercard, American Express) — processed through a PCI-DSS-certified secure gateway. We do not store card data on our servers.</li>
+              <li><strong>Bizum</strong> — instant payment via your bank's app.</li>
+              <li><strong>Bank transfer</strong> — the order is processed once payment is confirmed (1–2 business days). Bank details are provided at checkout.</li>
+              <li><strong>PayPal</strong> — payment via your PayPal account with buyer protection.</li>
             </ul>
-            <p>El cargo se realiza en el momento de la confirmación del pedido. Para pagos por transferencia, el pedido queda reservado durante <strong>48 horas</strong>; transcurrido este plazo sin recibir el pago, el pedido se cancelará automáticamente.</p>
-            <p>Todas las transacciones se realizan bajo protocolo de seguridad <strong>HTTPS/TLS</strong>. En caso de que tu entidad bancaria requiera autenticación reforzada (3D Secure), serás redirigido a la plataforma de tu banco para validar la operación.</p>
+            <p>Payment is charged at the time of order confirmation. For bank transfers, the order is reserved for <strong>48 hours</strong>; if payment is not received within this period, the order will be automatically cancelled.</p>
+            <p>All transactions are carried out under <strong>HTTPS/TLS</strong> security protocol. If your bank requires strong customer authentication (3D Secure), you will be redirected to your bank's platform to verify the transaction.</p>
           </div>
 
           <!-- 7 -->
           <div class="legal-section" id="envios">
             <p class="legal-section-num">07</p>
-            <h2 class="legal-section-title">Envíos y entregas</h2>
-            <p>Realizamos envíos a España (Península, Baleares, Canarias, Ceuta y Melilla) y a los principales países de Europa. Los plazos de entrega estimados son:</p>
+            <h2 class="legal-section-title">Shipping and delivery</h2>
+            <p>We ship to Spain (mainland, Balearic Islands, Canary Islands, Ceuta and Melilla) and to most European countries. Estimated delivery times are:</p>
 
             <table class="data-table">
               <thead>
                 <tr>
-                  <th>Tipo de producto</th>
-                  <th>Plazo estimado</th>
-                  <th>Notas</th>
+                  <th>Product type</th>
+                  <th>Estimated lead time</th>
+                  <th>Notes</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Productos en stock (Península)</td>
-                  <td>5–10 días hábiles</td>
-                  <td>Pedidos antes de las 14:00 h salen el mismo día</td>
+                  <td>In-stock items (mainland Spain)</td>
+                  <td>5–10 business days</td>
+                  <td>Orders placed before 2:00 pm ship the same day</td>
                 </tr>
                 <tr>
-                  <td>Productos bajo pedido</td>
-                  <td>3–6 semanas</td>
-                  <td>Se confirma el plazo exacto al procesar el pedido</td>
+                  <td>Made-to-order items</td>
+                  <td>3–6 weeks</td>
+                  <td>Exact lead time confirmed when order is processed</td>
                 </tr>
                 <tr>
-                  <td>Islas, Ceuta y Melilla</td>
-                  <td>7–15 días hábiles</td>
-                  <td>Pueden aplicarse tasas aduaneras adicionales</td>
+                  <td>Islands, Ceuta &amp; Melilla</td>
+                  <td>7–15 business days</td>
+                  <td>Additional customs charges may apply</td>
                 </tr>
                 <tr>
-                  <td>Europa</td>
-                  <td>10–20 días hábiles</td>
-                  <td>Variable según país de destino</td>
+                  <td>Europe</td>
+                  <td>10–20 business days</td>
+                  <td>Varies by destination country</td>
                 </tr>
               </tbody>
             </table>
 
-            <p>Los plazos son orientativos y pueden verse afectados por circunstancias excepcionales (huelgas, festivos, condiciones meteorológicas, etc.). Recibirás un correo con el número de seguimiento cuando tu pedido sea enviado.</p>
-            <p>En el momento de la entrega, te pedimos que <strong>compruebes el estado del embalaje</strong> antes de firmar el albarán. Si observas daños externos, indícalo expresamente al transportista y contáctanos en un plazo máximo de <strong>24 horas</strong> con fotografías del daño.</p>
+            <p>Lead times are indicative and may be affected by exceptional circumstances (strikes, public holidays, weather conditions, etc.). You will receive an email with a tracking number once your order has been dispatched.</p>
+            <p>At the time of delivery, please <strong>inspect the packaging</strong> before signing the delivery note. If you notice any external damage, state this explicitly to the carrier and contact us within <strong>24 hours</strong> with photographs of the damage.</p>
           </div>
 
           <!-- 8 -->
           <div class="legal-section" id="desistimiento">
             <p class="legal-section-num">08</p>
-            <h2 class="legal-section-title">Derecho de desistimiento</h2>
-            <p>De acuerdo con el <strong>Real Decreto Legislativo 1/2007</strong> (Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios), tienes derecho a desistir del contrato en un plazo de <strong>14 días naturales</strong> desde la recepción del producto, sin necesidad de justificación y sin penalización.</p>
-            <p>Para ejercer este derecho:</p>
+            <h2 class="legal-section-title">Right of withdrawal</h2>
+            <p>In accordance with applicable consumer protection law, you have the right to withdraw from the contract within <strong>14 calendar days</strong> of receiving the product, without giving any reason and without penalty.</p>
+            <p>To exercise this right:</p>
             <ul class="legal-list">
-              <li>Notifícanos tu decisión enviando un correo a <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> o cumplimentando el formulario de contacto, indicando el número de pedido y los artículos que deseas devolver.</li>
-              <li>Una vez confirmada la devolución, te facilitaremos las instrucciones para el envío de vuelta.</li>
-              <li>El producto debe devolverse en su <strong>estado original</strong>, sin uso y en su embalaje original, en un plazo máximo de 14 días desde la notificación.</li>
+              <li>Notify us of your decision by emailing <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> or using the contact form, stating your order number and the items you wish to return.</li>
+              <li>Once the return is confirmed, we will provide instructions for sending the item back.</li>
+              <li>The product must be returned in its <strong>original condition</strong>, unused and in its original packaging, within 14 days of notification.</li>
             </ul>
-            <p>El reembolso se realizará mediante el mismo método de pago utilizado en la compra, en un plazo máximo de <strong>14 días</strong> desde la recepción del artículo devuelto o desde la acreditación de su envío, lo que ocurra antes.</p>
+            <p>The refund will be issued using the same payment method used for the original purchase, within a maximum of <strong>14 days</strong> from receipt of the returned item or proof of dispatch, whichever comes first.</p>
             <div class="info-box">
-              <p><strong>Excepción:</strong> el derecho de desistimiento no aplica a productos fabricados según especificaciones del consumidor o claramente personalizados.</p>
+              <p><strong>Exception:</strong> the right of withdrawal does not apply to products manufactured to the consumer's specifications or clearly personalised.</p>
             </div>
           </div>
 
           <!-- 9 -->
           <div class="legal-section" id="devoluciones">
             <p class="legal-section-num">09</p>
-            <h2 class="legal-section-title">Devoluciones y cambios</h2>
-            <p>Además del derecho de desistimiento de 14 días, ofrecemos una <strong>política de devolución ampliada de 30 días naturales</strong> desde la fecha de recepción del pedido para todos nuestros productos.</p>
-            <p>Aceptamos devoluciones en los siguientes supuestos:</p>
+            <h2 class="legal-section-title">Returns and exchanges</h2>
+            <p>In addition to the statutory 14-day withdrawal right, we offer an <strong>extended 30-calendar-day return policy</strong> from the date of receipt for all our products.</p>
+            <p>We accept returns in the following cases:</p>
             <ul class="legal-list">
-              <li>El producto no se ajusta a lo esperado (política comercial de 30 días).</li>
-              <li>El producto presenta defectos de fabricación o fue dañado durante el transporte.</li>
-              <li>Se ha enviado un artículo incorrecto.</li>
+              <li>The product does not meet your expectations (commercial 30-day policy).</li>
+              <li>The product has a manufacturing defect or was damaged in transit.</li>
+              <li>An incorrect item was dispatched.</li>
             </ul>
-            <p>Para iniciar una devolución, contacta con nosotros en <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> indicando tu número de pedido, el motivo de la devolución y, si aplica, fotografías del estado del producto.</p>
-            <p><strong>Gastos de devolución:</strong> en caso de desistimiento (arrepentimiento), los gastos de devolución corren a cargo del Cliente, salvo que el producto presente defectos o se haya enviado incorrectamente, en cuyo caso Natura Home asumirá los costes.</p>
+            <p>To start a return, contact us at <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> with your order number, the reason for the return and, where applicable, photographs of the product's condition.</p>
+            <p><strong>Return shipping costs:</strong> in the case of withdrawal (change of mind), return shipping costs are borne by the Customer, unless the product is defective or was incorrectly dispatched, in which case Natura Home will cover the costs.</p>
           </div>
 
           <!-- 10 -->
           <div class="legal-section" id="garantia">
             <p class="legal-section-num">10</p>
-            <h2 class="legal-section-title">Garantía legal</h2>
-            <p>Todos los productos vendidos por Natura Home cuentan con la <strong>garantía legal de conformidad</strong> establecida por el Real Decreto Legislativo 1/2007, con las siguientes condiciones:</p>
+            <h2 class="legal-section-title">Legal warranty</h2>
+            <p>All products sold by Natura Home are covered by the <strong>statutory conformity warranty</strong> established under applicable consumer protection law, with the following conditions:</p>
             <ul class="legal-list">
-              <li><strong>Plazo:</strong> 2 años a partir de la fecha de entrega para productos nuevos.</li>
-              <li>Si el defecto se manifiesta en los <strong>primeros 12 meses</strong>, se presume que existía en el momento de la entrega, salvo prueba en contrario.</li>
-              <li>Natura Home, a su elección, procederá a la <strong>reparación, sustitución, reducción del precio o resolución del contrato</strong> en función de la naturaleza del defecto.</li>
+              <li><strong>Duration:</strong> 2 years from the date of delivery for new products.</li>
+              <li>If a defect appears within the <strong>first 12 months</strong>, it is presumed to have existed at the time of delivery, unless proven otherwise.</li>
+              <li>Natura Home will, at its discretion, proceed with <strong>repair, replacement, a price reduction or cancellation of the contract</strong> depending on the nature of the defect.</li>
             </ul>
-            <p>Adicionalmente, algunos productos cuentan con <strong>garantía comercial del fabricante</strong> por encima del mínimo legal, tal y como se especifica en cada ficha de producto.</p>
-            <p>La garantía no cubre deterioros causados por uso inadecuado, falta de mantenimiento, modificaciones realizadas por el usuario, desgaste normal por uso o daños causados por agentes externos (humedad excesiva, impactos, etc.).</p>
+            <p>In addition, some products carry a <strong>manufacturer's commercial warranty</strong> beyond the statutory minimum, as specified on each product page.</p>
+            <p>The warranty does not cover damage caused by improper use, lack of maintenance, modifications made by the user, normal wear and tear, or damage caused by external agents (excessive moisture, impacts, etc.).</p>
           </div>
 
           <!-- 11 -->
           <div class="legal-section" id="responsabilidad">
             <p class="legal-section-num">11</p>
-            <h2 class="legal-section-title">Limitación de responsabilidad</h2>
-            <p>Natura Home no será responsable de los daños indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de los productos o del sitio web, en la medida en que la legislación aplicable lo permita.</p>
-            <p>En ningún caso la responsabilidad total de Natura Home frente al Cliente superará el <strong>importe total pagado</strong> por los productos objeto del litigio.</p>
-            <p>Natura Home no se responsabiliza de las interrupciones del servicio web por causas ajenas a su voluntad (fallos de servidores, ataques informáticos, problemas de conectividad, etc.), aunque tomará todas las medidas razonables para minimizar dichas interrupciones.</p>
+            <h2 class="legal-section-title">Limitation of liability</h2>
+            <p>Natura Home shall not be liable for any indirect, incidental or consequential damages arising from the use or inability to use the products or the website, to the extent permitted by applicable law.</p>
+            <p>In no event shall Natura Home's total liability to the Customer exceed the <strong>total amount paid</strong> for the products in dispute.</p>
+            <p>Natura Home is not responsible for interruptions to the web service caused by circumstances beyond its control (server failures, cyber attacks, connectivity issues, etc.), although it will take all reasonable steps to minimise such interruptions.</p>
           </div>
 
           <!-- 12 -->
           <div class="legal-section" id="propiedad-intelectual">
             <p class="legal-section-num">12</p>
-            <h2 class="legal-section-title">Propiedad intelectual e industrial</h2>
-            <p>Todos los contenidos del sitio web de Natura Home —incluyendo, sin limitación, textos, fotografías, ilustraciones, logotipos, vídeos, diseño gráfico y código fuente— son <strong>propiedad de Natura Home, S.L.</strong> o de sus licenciantes, y están protegidos por la normativa española e internacional sobre propiedad intelectual e industrial.</p>
-            <p>Queda expresamente prohibido:</p>
+            <h2 class="legal-section-title">Intellectual and industrial property</h2>
+            <p>All content on the Natura Home website — including, without limitation, texts, photographs, illustrations, logos, videos, graphic design and source code — is the <strong>property of Natura Home, S.L.</strong> or its licensors, and is protected by Spanish and international intellectual and industrial property law.</p>
+            <p>The following are expressly prohibited:</p>
             <ul class="legal-list">
-              <li>Reproducir, distribuir, comunicar públicamente o transformar los contenidos de la web sin autorización escrita previa de Natura Home.</li>
-              <li>Usar el nombre comercial, marcas, logotipos o cualquier otro signo distintivo de Natura Home sin consentimiento expreso.</li>
-              <li>Usar los contenidos de la web con fines comerciales sin autorización.</li>
+              <li>Reproducing, distributing, publicly communicating or adapting website content without prior written authorisation from Natura Home.</li>
+              <li>Using Natura Home's trade name, trademarks, logos or any other distinctive sign without express consent.</li>
+              <li>Using website content for commercial purposes without authorisation.</li>
             </ul>
-            <p>Se permite la visualización y descarga de los contenidos para uso personal y privado, siempre que no se alteren y se mantengan los avisos de propiedad intelectual.</p>
+            <p>Viewing and downloading content for personal and private use is permitted, provided it is not altered and all intellectual property notices are retained.</p>
           </div>
 
           <!-- 13 -->
           <div class="legal-section" id="uso-web">
             <p class="legal-section-num">13</p>
-            <h2 class="legal-section-title">Uso aceptable del sitio web</h2>
-            <p>Al acceder y utilizar el sitio web de Natura Home, el usuario se compromete a:</p>
+            <h2 class="legal-section-title">Acceptable use of the website</h2>
+            <p>By accessing and using the Natura Home website, you agree to:</p>
             <ul class="legal-list">
-              <li>Utilizar el sitio web únicamente para fines lícitos y de conformidad con las presentes condiciones.</li>
-              <li>No introducir, transmitir o difundir contenidos que sean ilegales, difamatorios, obscenos o que vulneren derechos de terceros.</li>
-              <li>No intentar acceder de forma no autorizada a sistemas, redes o cuentas relacionadas con el sitio.</li>
-              <li>No utilizar herramientas automáticas (robots, scrapers, etc.) para extraer contenidos del sitio sin autorización.</li>
-              <li>No realizar ninguna acción que pueda dañar, sobrecargar o deteriorar el funcionamiento del sitio.</li>
+              <li>Use the website only for lawful purposes and in accordance with these terms.</li>
+              <li>Not introduce, transmit or distribute content that is illegal, defamatory, obscene or that infringes the rights of third parties.</li>
+              <li>Not attempt to gain unauthorised access to systems, networks or accounts related to the site.</li>
+              <li>Not use automated tools (robots, scrapers, etc.) to extract content from the site without authorisation.</li>
+              <li>Not carry out any action that could damage, overload or impair the operation of the site.</li>
             </ul>
-            <p>Natura Home se reserva el derecho de suspender o cancelar el acceso al sitio web o las cuentas de usuario que incumplan estas condiciones, sin necesidad de preaviso.</p>
+            <p>Natura Home reserves the right to suspend or terminate access to the website or user accounts that breach these terms, without prior notice.</p>
           </div>
 
           <!-- 14 -->
           <div class="legal-section" id="modificaciones">
             <p class="legal-section-num">14</p>
-            <h2 class="legal-section-title">Modificaciones de las condiciones</h2>
-            <p>Natura Home se reserva el derecho de modificar los presentes Términos y Condiciones en cualquier momento, publicando la versión actualizada en esta página con la fecha de la última modificación.</p>
-            <p>Los cambios <strong>no afectarán a pedidos ya confirmados</strong>. Para compras futuras, se aplicarán los términos vigentes en el momento de la realización del pedido.</p>
-            <p>Te recomendamos revisar periódicamente esta página. El uso continuado del sitio web tras la publicación de cambios implica la aceptación de los nuevos términos.</p>
+            <h2 class="legal-section-title">Amendments to these terms</h2>
+            <p>Natura Home reserves the right to amend these Terms and Conditions at any time by publishing the updated version on this page with the date of the last modification.</p>
+            <p>Changes will <strong>not affect already confirmed orders</strong>. For future purchases, the terms in force at the time of placing the order will apply.</p>
+            <p>We recommend reviewing this page periodically. Continued use of the website after changes are published constitutes acceptance of the new terms.</p>
           </div>
 
           <!-- 15 -->
           <div class="legal-section" id="legislacion">
             <p class="legal-section-num">15</p>
-            <h2 class="legal-section-title">Legislación aplicable y jurisdicción</h2>
-            <p>Los presentes Términos y Condiciones se rigen por la <strong>legislación española</strong>, en particular por:</p>
+            <h2 class="legal-section-title">Governing law and jurisdiction</h2>
+            <p>These Terms and Conditions are governed by <strong>Spanish law</strong>, in particular by:</p>
             <ul class="legal-list">
-              <li>Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios.</li>
-              <li>Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI).</li>
-              <li>Ley 7/1998, de 13 de abril, sobre Condiciones Generales de la Contratación.</li>
-              <li>Reglamento (UE) 524/2013 sobre resolución de litigios en línea en materia de consumo.</li>
+              <li>Royal Legislative Decree 1/2007 of 16 November, approving the Consolidated Text of the General Law for the Protection of Consumers and Users.</li>
+              <li>Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI).</li>
+              <li>Law 7/1998 of 13 April on General Contracting Conditions.</li>
+              <li>Regulation (EU) 524/2013 on online dispute resolution for consumer disputes.</li>
             </ul>
-            <p>Para cualquier controversia derivada de estos Términos y Condiciones, las partes se someten, con renuncia expresa a cualquier otro fuero, a los <strong>Juzgados y Tribunales del domicilio del consumidor</strong>, tal como establece la normativa de protección al consumidor.</p>
-            <p>Asimismo, la Comisión Europea pone a disposición de los consumidores la <strong>Plataforma Europea de Resolución de Litigios en Línea (ODR)</strong>, accesible en <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>, donde puedes intentar resolver disputas de forma extrajudicial.</p>
+            <p>For any dispute arising from these Terms and Conditions, the parties submit, expressly waiving any other jurisdiction, to the <strong>courts of the consumer's place of residence</strong>, as established by consumer protection law.</p>
+            <p>The European Commission also makes available to consumers the <strong>European Online Dispute Resolution (ODR) Platform</strong>, accessible at <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>, where disputes can be resolved out of court.</p>
 
             <div class="info-box">
-              <p>Para cualquier consulta sobre estos términos, contáctanos en <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> o en el teléfono +34 900 123 456, de lunes a viernes de 9h a 19h.</p>
+              <p>For any questions about these terms, contact us at <a href="mailto:hola@naturahome.es">hola@naturahome.es</a> or by phone on +34 900 123 456, Monday to Friday 9am–7pm.</p>
             </div>
           </div>
 
@@ -605,15 +593,15 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="site-footer" aria-label="Pie de página">
+  <footer class="site-footer" aria-label="Footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="logo">
             <span class="logo-name">Natura Home</span>
-            <span class="logo-tagline">Muebles con alma</span>
+            <span class="logo-tagline">Furniture with soul</span>
           </a>
-          <p class="footer-brand-desc">Tienda de muebles artesanales y de diseño. Seleccionamos cada pieza para que encuentres el equilibrio entre belleza, calidad y funcionalidad.</p>
+          <p class="footer-brand-desc">A store for artisan and designer furniture. We handpick every piece so you can find the perfect balance between beauty, quality and functionality.</p>
           <div class="footer-social">
             <a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
             <a href="#" aria-label="Pinterest"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.17 1.22-5.17s-.31-.63-.31-1.56c0-1.46.85-2.55 1.9-2.55.9 0 1.33.67 1.33 1.48 0 .9-.57 2.25-.87 3.5-.25 1.05.52 1.9 1.55 1.9 1.86 0 3.1-2.4 3.1-5.25 0-2.16-1.46-3.67-3.54-3.67-2.41 0-3.83 1.81-3.83 3.68 0 .73.28 1.51.63 1.93a.25.25 0 0 1 .06.24c-.06.27-.21.85-.24.97-.04.16-.13.19-.3.11-1.12-.52-1.82-2.16-1.82-3.48 0-2.83 2.06-5.43 5.93-5.43 3.11 0 5.53 2.22 5.53 5.18 0 3.09-1.95 5.58-4.65 5.58-.91 0-1.76-.47-2.05-1.03l-.56 2.07c-.2.78-.75 1.75-1.12 2.35.84.26 1.73.4 2.65.4 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
@@ -621,26 +609,26 @@
           </div>
         </div>
         <div>
-          <p class="footer-col-title">Tienda</p>
+          <p class="footer-col-title">Shop</p>
           <nav class="footer-links">
-            <a href="index.html">Inicio</a>
-            <a href="hogar.html">Hogar</a>
-            <a href="bano.html">Baño</a>
-            <a href="terraza-jardin.html">Terraza y jardín</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="index.html">Home</a>
+            <a href="hogar.html">Living</a>
+            <a href="bano.html">Bathroom</a>
+            <a href="terraza-jardin.html">Terrace &amp; Garden</a>
+            <a href="contacto.html">Contact</a>
           </nav>
         </div>
         <div>
-          <p class="footer-col-title">Ayuda</p>
+          <p class="footer-col-title">Help</p>
           <nav class="footer-links">
-            <a href="#">Envíos y plazos</a>
-            <a href="#">Devoluciones</a>
-            <a href="#">Garantía</a>
-            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Shipping &amp; delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">Warranty</a>
+            <a href="#">FAQ</a>
           </nav>
         </div>
         <div>
-          <p class="footer-col-title">Contacto</p>
+          <p class="footer-col-title">Contact</p>
           <div class="footer-contact-item">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             <span>hola@naturahome.es</span>
@@ -651,16 +639,16 @@
           </div>
           <div class="footer-contact-item">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            <span>Lun–Vie · 9h – 19h</span>
+            <span>Mon–Fri · 9am – 7pm</span>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Natura Home · Todos los derechos reservados</span>
+        <span>© 2025 Natura Home · All rights reserved</span>
         <span>
-          <a href="terminos-servicio.html" style="color:inherit;text-decoration:underline">Aviso legal</a>
+          <a href="terminos-servicio.html" style="color:inherit;text-decoration:underline">Legal notice</a>
           &nbsp;·&nbsp;
-          <a href="politica-privacidad.html" style="color:inherit;text-decoration:underline">Privacidad</a>
+          <a href="politica-privacidad.html" style="color:inherit;text-decoration:underline">Privacy policy</a>
         </span>
       </div>
     </div>
